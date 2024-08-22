@@ -1,0 +1,81 @@
+<html>
+    <title>Grid page</title>
+    <head></head>
+    <style>
+        .parent{
+           display :grid;
+           grid-template-columns: 25% 25% 25%;
+           grid-template-rows: 200px 200px 200px 200px;
+           gap:30px;
+        }
+        .child{
+        
+            border:1px solid green;
+        
+
+        }
+        .c1{
+            background-image: url("v1.jpeg");
+            background-size: cover;
+        }
+        .c2{
+            background-image:url("v6.jpeg");
+            background-size: cover;
+        }
+        .c3{
+            background-image:url("v4.jpeg");
+            background-size: cover;
+        }
+        .c4{
+            background-image:url("v3.jpeg");
+            background-size: cover;
+        }
+        .c5{
+            
+            background-image:url("v12.jpeg");
+            background-size: cover;
+        
+        }
+        .c6{
+            background-image:url("v7.jpeg");
+            background-size: cover;
+        }
+        .c7{
+            background-image:url("v8.jpeg");
+            background-size: cover;
+        }
+        .c8{
+            background-image:url("v11.jpeg");
+            background-size: cover;
+        }
+        .c9{
+            background-image:url("v16.jpeg");
+            background-size: cover;
+        }
+        .c10{
+            background-image:url("v14.jpeg");
+            background-size: cover;
+        }
+        .child:hover{
+            box-shadow:0px 0px 5px 5px black;
+        }
+    </style>
+    <body>
+        <h1>GRID PAGE</h1>
+        <div class="parent">
+         
+          <div class="child c1"></div>
+          <div class="child c2"></div>
+          <div class="child c3"></div>
+          <div class="child c4"></div>
+          <div class="child c5"></div>
+          <div class="child c6"></div>
+          <div class="child c7"></div>
+          <div class="child c8"></div>
+          <div class="child c9"></div>
+          <div class="child c10"></div>
+
+        </div>
+       
+    </body>
+</html>
